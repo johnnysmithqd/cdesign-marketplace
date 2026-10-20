@@ -1,16 +1,12 @@
 {
   "name": "cdesign-marketplace",
-  "description": "Claude Design skills from asgeirtj/system_prompts_leaks, tracked upstream",
+  "description": "Claude Design skills from asgeirtj/system_prompts_leaks, synced daily",
   "owner": { "name": "Shadow Fiend" },
   "plugins": [
     {
       "name": "cdesign",
       "description": "Claude Design skills (deck, wireframe, hi-fi, design system, export, etc.)",
-      "source": {
-        "source": "git-subdir",
-        "url": "asgeirtj/system_prompts_leaks",
-        "path": "Anthropic/claude-design"
-      }
+      "source": "./plugins/cdesign"
     }
   ]
 }
